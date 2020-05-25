@@ -15,8 +15,8 @@ int main()
     {
         printf("Enter your Choice:");
         scanf("%d", &choice);
-        int computer = GenerateRandomNumber(2) + 1;
-        printf("Computer Choice is %d\n", GenerateRandomNumber(2) + 1);
+        int computer = GenerateRandomNumber(3) + 1;
+        printf("Computer Choice is %d\n", GenerateRandomNumber(3) + 1);
         if (choice == 1)
         {
             if (computer == 1)
